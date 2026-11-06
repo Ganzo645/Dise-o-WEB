@@ -1,0 +1,63 @@
+body{
+    background-color: #1a1a1a;
+    color: white;
+}
+#cabecera {
+    background-color: #8b0000;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+#logo h1{
+    font-style: italic;
+    letter-spacing: 2px;
+
+}
+#nav ul {
+    list-style: none;
+    display: flex ;
+    gap:20px;
+}
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font: bold;
+}
+#banner{
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#texto-banner{
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#texto-banner p {
+    color: #cccccc;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+#imagen-banner img {
+    width: 400px;
+    border-radius: 10px;
+}
+#nav ul {
+    list-style: none ;
+}
+#boton-catalogo {
+    background-color: red;
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: italic;
+    border:none;
+}
+
+
